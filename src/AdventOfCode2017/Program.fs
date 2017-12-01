@@ -4,7 +4,7 @@
 [<EntryPoint>]
 let main argv = 
 
-    let x = Day1.Problem1
+    let x = Day1.Problem2
     
     printfn "%A" x
     let a =System.Console.ReadKey()
