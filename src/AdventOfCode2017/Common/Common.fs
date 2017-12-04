@@ -1,5 +1,14 @@
 ﻿module Common
 
+let Words (s : string) =
+    s.Replace("\t"," ").Split(' ')
+    |> Array.filter (fun s -> s <> "")
+
+let Lines (s : string) =
+    s.Replace("\n", "\r").Split('\r')
+    |> Array.map (fun s -> s.Trim())
+    |> Array.filter (fun s -> s <> "")
+
 let Chars =
     string >> (fun e -> seq [for c in e -> c])
 
