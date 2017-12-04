@@ -36,11 +36,12 @@ let IsPrime n =
     )
 
 let Primes =
-    let s = seq {
-        yield 2
-        yield! InfSeq 3 2
-    }
-    s |> Seq.filter IsPrime
+    seq {
+        yield! [2; 3; 5] |> List.toSeq
+        yield! InfSeq 7 6 
+            |> Seq.collect (fun e -> seq {yield e; yield e + 4})
+            |> Seq.filter (fun e -> e < 6 || IsPrime e)
+    } 
 
 let rec Factorize (n:int) = seq {
     if n > 1 then
