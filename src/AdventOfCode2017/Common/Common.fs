@@ -44,7 +44,10 @@ let Primes =
 
 let rec Factorize (n:int) = seq {
     if n > 1 then
-        let f = Primes |> Seq.find (fun e -> n % e = 0) |> int
+        let f = 
+            Primes 
+            |> Seq.find (fun e -> n % e = 0) 
+            |> int
         yield f
         yield! Factorize (n / f)
 }
