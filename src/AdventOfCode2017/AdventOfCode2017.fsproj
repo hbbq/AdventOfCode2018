@@ -57,6 +57,7 @@
     <Compile Include="Common\Common.fs" />
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Day1.fs" />
+    <Compile Include="Day2.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
