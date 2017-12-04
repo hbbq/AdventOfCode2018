@@ -48,7 +48,7 @@ let Problem2 =
             |> Common.Chars
             |> Seq.map int
             |> Seq.sort
-            |> Seq.map string
+            |> Seq.map (char >> string)
             |> Seq.toArray
             |> fun e -> System.String.Join("", e)
         
