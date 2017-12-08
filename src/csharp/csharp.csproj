@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Day3.cs" />
     <Compile Include="Day5.cs" />
+    <Compile Include="Day8.cs" />
     <Compile Include="Day7.cs" />
     <Compile Include="Day6.cs" />
+    <Compile Include="Ext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
