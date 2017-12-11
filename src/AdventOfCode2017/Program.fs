@@ -1,7 +1,7 @@
 ﻿[<EntryPoint>]
 let main argv = 
 
-    let x = Day10.Problem2
+    let x = Day11.Problem2
         
     printfn "%A" x
 
