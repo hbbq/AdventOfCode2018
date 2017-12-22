@@ -1,8 +1,8 @@
 ﻿[<EntryPoint>]
 let main argv = 
     
-    let p1 = Day21.Problem1
-    let p2 = Day21.Problem2
+    let p1 = Day22.Problem1
+    let p2 = Day22.Problem2
         
     printfn "1: %A" p1
     printfn "2: %A" p2
