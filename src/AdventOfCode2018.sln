@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2017", "AdventOfCode2017\AdventOfCode2017.fsproj", "{234BF2B3-D1A1-4504-AEE5-8F71E376B979}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2018", "AdventOfCode2018\AdventOfCode2018.fsproj", "{234BF2B3-D1A1-4504-AEE5-8F71E376B979}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp", "csharp\csharp.csproj", "{B06082BC-04C4-43AA-BA56-E54605A94260}"
 EndProject
